@@ -20,7 +20,7 @@ const App = React.createClass({
 let TodoComponent = React.createClass({
 	getInitialState: function() {
 		return {
-			todos: [ 'wash up', 'eat some cheese', 'take a nap' ]
+			todos: [ 'wash up', 'take some milk', 'take a nap' ]
 		};
 	},
 	render: function() {
